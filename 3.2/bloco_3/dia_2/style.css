@@ -1,0 +1,35 @@
+<style>
+  
+    h1 {
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 65px;
+      color: orange;
+    }<style><style>
+  
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 65px;
+    color: orange;
+  }
+
+  body {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  p {
+    font-size: 3em;
+    text-decoration:underline;
+    color: violet;
+  }
+
+  #lista {
+    background-color: aquamarine;
+  }
+  .altcor {
+    background-color: blueviolet;
+    color:lightcoral;
+  }
+
+</style>  
