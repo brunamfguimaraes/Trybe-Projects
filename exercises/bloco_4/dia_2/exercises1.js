@@ -39,7 +39,6 @@ for (let i = 0; i < numbers.length; i++) {
 }
     console.log(maior);*/
 
-    
     /* /exercicio 6
     let resultado = 0;
     for (let i = 0; i < numbers.length; i+=1) {
