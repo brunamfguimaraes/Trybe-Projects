@@ -57,20 +57,60 @@
   </head>
   <body>
     <script>
-      //Exercise 1
-    let criandoH1 = document.createElement('h1');criandoH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';document.body.appendChild(criandoH1);
-    //Exercise 2
-    let adicioneATagDiv = document.createElement('div');adicioneATagDiv.className = 'main-content';document.body.appendChild(adicioneATagDiv);
-    //Exercise 3
-    let adcTagDtagivCenter = document.createElement('div');adcTagDtagivCenter.className = 'center-content';adicioneATagDiv.appendChild(adcTagDtagivCenter);
-    //Exercise 4
-    let adcTagPFilho = document.createElement('p');adcTagPFilho.innerHTML = 'Porque o foguete não tem ré';adcTagDtagivCenter.appendChild(adcTagPFilho);
-    //Exercicio 5
-    let adcdivesq = document.createElement('div');adcdivesq.className = 'left-content'; adicioneATagDiv.appendChild(adcdivesq);
-    //Exercicio 6
-    let adcdivdir = document.createElement('div');adcdivdir.className = 'right-content'; adicioneATagDiv.appendChild(adcdivdir);
-    //Exercicio 7
-    let adcImg = document.createElement('img'); adcImg.className = 'small-image'; adcImg.src = 'https://picsum.photos/200';adcdivesq.appendChild(adcImg);
+      // Exercise - 1
+      const elementH1 = document.createElement('h1');
+      elementH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
+      document.body.appendChild(elementH1);
+
+      // Exercise - 2
+      const elementDivMain = document.createElement('div');
+      elementDivMain.className = 'main-content';
+      document.body.appendChild(elementDivMain);
+
+      // Exercise - 3
+      const elementDivCenter = document.createElement('div');
+      elementDivCenter.className = 'center-content';
+      elementDivMain.appendChild(elementDivCenter);
+
+      // Exercise - 4
+      const paragraph = document.createElement('p');
+      paragraph.innerHTML = 'Texto Show';
+      elementDivCenter.appendChild(paragraph);
+
+      // Exercise - 5
+      const elementDivLeft = document.createElement('div');
+      elementDivLeft.className = 'left-content';
+      elementDivMain.appendChild(elementDivLeft);
+
+      // Exercise - 6
+      const elementDivRight = document.createElement('div');
+      elementDivRight.className = 'right-content';
+      elementDivMain.appendChild(elementDivRight);
+
+      // Exercise - 7
+      const elementImg = document.createElement('img');
+      elementImg.className = 'small-image';
+      elementImg.src = 'https://picsum.photos/200';
+      elementDivLeft.appendChild(elementImg);
+
+      // Exercise - 8
+      const elementUl = document.createElement('ul');
+      elementDivRight.appendChild(elementUl);
+      const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+    for (let num in arrayNumbers) {
+      const elementLi = document.createElement('li');
+      elementLi.innerHTML = arrayNumbers[num];
+      elementUl.appendChild(elementLi);
+    }
+
+      // Exercise - 9
+      for (let index = 1; index <= 3; index++) {
+        const elementH3 = document.createElement('h3');
+        elementH3.innerHTML = 'Show ' + index;
+        elementDivMain.appendChild(elementH3);
+      }
+
+    
     </script>
   </body>
 </html>

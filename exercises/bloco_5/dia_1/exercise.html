@@ -53,22 +53,37 @@
         */
 
     //exercicio 1
-    function changeText () {
-      let change = document.getElementsByTagName('p')[1];change.innerText = "Trabalhando efetivamente em um trabalho de tempo integral"
-    }
-        changeText();
-
-    //exercicio 2
-    function changeCollorToGreen () {
-      let color = document.getElementsByClassName('main-content')[0];color.style.background = 'rgb(76,164,109)';
-    }    
-        changeCollorToGreen ();
-
-    //exercicio 3
-    function changeCollorToWhite () {
-      let colorWhite = document.getElementsByTagName('center-content')[0];colorWhite.style.background = 'white';
-    }
-        changeCollorToWhite ();
+    function changeText() {
+     let paragraph = document.getElementsByTagName('p')[1];
+     paragraph.innerText = "Trabalhando na área de tecnologia";
+    }     changeText();
+    //Exercicio 2
+    function changeCollorToGreen() {
+      let mudarCorParaVerde = document.getElementsByClassName('main-content')[0];
+      mudarCorParaVerde.style.backgroundColor = 'rgb(76,164,109)';
+    } changeCollorToGreen();
+    //Exercicio 3
+    function changeCollorToWhite() {
+    let changeToWhite = document.getElementsByClassName('center-content')[0];
+    changeToWhite.style.backgroundColor = 'white';
+    } changeCollorToWhite();
+    //Exercicio 4
+    function corrigirTexto () {
+      let corrText = document.getElementsByClassName('title')[0];
+      corrText.innerText = 'Exercício 5.1 - Java Script';
+    } corrigirTexto();
+    //Exercicio 5
+    function changeToUpper () {
+      let changeLetter = document.getElementsByTagName('p')[0];
+      changeLetter.innerHTML = changeLetter.innerHTML.toUpperCase();
+    } changeToUpper();
+    //Exercicio 6
+    function showAllTagsP () {
+      let showTags = document.getElementsByTagName('p');
+      for (index = 0; index < showTags.length; index += 1) {
+        console.log(showTags[index].innerHTML);
+      }
+    } showAllTagsP ();
     </script>
   </body>
 </html>
