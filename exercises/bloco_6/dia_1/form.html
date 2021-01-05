@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Formulário de Currículo</h1>
+</header>
+<form>
+    <fieldset>
+        <label>Nome Completo</label>
+        <input type="text" maxlength="40" required />
+        <br>
+        <br>
+        <label>E-mail</label>
+        <input type="email" maxlength="50" required />
+        <br>
+        <br>
+        <label>CPF</label>
+        <input type="number" maxlength="11" required />
+        <br>
+        <br>
+        <label>Endereço</label>
+        <input type="text" maxlength="200" required />
+        <br>
+        <br>
+        <label>Cidade</label>
+        <input type="text" maxlength="28" required />
+        <br>
+        <br>
+        <label>Estado</label>
+        <select name="estado" id="escolha-estado" required>
+            <option value="sp">São Paulo</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="es">Espírito Santo</option>
+            <option value="rj">Rio de Janeiro</option>
+        </select>
+        <br>
+        <br>
+        <label>Casa</label>
+        <input type="radio" name="sel" required />
+        <label>Apartamento</label>
+        <input type="radio" name="sel" required />
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <h2>Dados do seu último emprego</h2>
+        <h3>Resumo do currículo</h3>
+        <textarea maxlength="1000" required ></textarea>
+    </fieldset>
+</form>
+</body>
+</html>
