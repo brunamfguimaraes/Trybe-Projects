@@ -82,8 +82,32 @@
 }
 
 @media screen and (min-width:240px) and (max-width:320px) {
+
+body {
+  padding:0px;
+  margin: 0 0 0 0;
+}
+#header {
+  font-size: 5px;
+  padding: 7px;
+  margin-bottom: 2px;
+
+}
+#navigation ul li{
+  display: flex;
+  flex-direction:column;
+  font-size: 7px;
+  border-right: none;
+}
+#footer {
+  display: none;
+}
 #aside {
   display: none;
+}
+
+img {
+  width: 65%;
 }
 }
 
