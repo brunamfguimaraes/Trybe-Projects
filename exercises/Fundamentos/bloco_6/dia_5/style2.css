@@ -1,0 +1,196 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 640px) {
+body {
+  background-color: cornsilk;
+  margin: 25px 25px 25px 25px;
+}
+ul {
+  list-style: none;
+}
+header p {
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bolder;
+  color: blueviolet;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+}
+nav ul {
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+  font-weight: lighter;
+  display: flex;
+  color: coral;
+  font-style: none;
+  justify-content:space-evenly;
+}
+.aside-one h2 {
+  font-size: 25px;
+  color: lightcoral;
+}
+.aside-one ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: lightpink;
+}
+.aside-two h2 {
+  font-size: 25px;
+  color:lightcoral;
+}
+.aside-two ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color:rgb(226, 150, 203);
+}
+.main-content h1 {
+  font-size: 35px;
+  color: magenta;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+}
+.main-content p {
+  font-size: 18px;
+  color: maroon;
+  text-indent: 40px;
+}
+footer h3 {
+  font-size: 25px;
+  color:lightcoral;
+}
+footer p {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  body {
+    background-color: cornsilk;
+    margin: 35px 35px 35px 35px;
+  }
+  ul {
+    list-style: none;
+  }
+  header p {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: blueviolet;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+  }
+  nav ul {
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+    font-weight: lighter;
+    display: flex;
+    color: coral;
+    font-style: none;
+    justify-content:space-evenly;
+  }
+  .aside-one h2 {
+    font-size: 25px;
+    color: lightcoral;
+  }
+  .aside-one ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: lightpink;
+  }
+  .aside-two h2 {
+    font-size: 25px;
+    color:lightcoral;
+  }
+  .aside-two ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(226, 150, 203);
+  }
+  .main-content h1 {
+    font-size: 35px;
+    color: magenta;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+  }
+  .main-content p {
+    font-size: 18px;
+    color: maroon;
+    text-indent: 40px;
+  }
+  footer h3 {
+    font-size: 25px;
+    color:lightcoral;
+  }
+  footer p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+@media screen and (min-width: 1008px) {
+  body {
+    background-color: cornsilk;
+    margin: 35px 35px 35px 35px;
+  } 
+
+  ul {
+    list-style: none;
+  }
+  header p {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: blueviolet;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+  }
+  nav ul {
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+    font-weight: lighter;
+    display: flex;
+    color: coral;
+    font-style: none;
+    justify-content:space-evenly;
+  }
+  .aside-one h2 {
+    font-size: 25px;
+    color: lightcoral;
+  }
+  .aside-one ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: lightpink;
+  }
+  .aside-two h2 {
+    font-size: 25px;
+    color:lightcoral;
+  }
+  .aside-two ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(226, 150, 203);
+  }
+  .main-content h1 {
+    font-size: 35px;
+    color: magenta;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;
+  }
+  .main-content p {
+    font-size: 18px;
+    color: maroon;
+    text-indent: 40px;
+  }
+  footer h3 {
+    font-size: 25px;
+    color:lightcoral;
+  }
+  footer p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
